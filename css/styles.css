@@ -1,0 +1,49 @@
+:root {
+  --whitebackground: #ffffff;
+  --herobackground: #2e2f42;
+  --footerbackground: #2e2f42;
+  --primarycolor: #2e2f42;
+  --textcolor: #434455;
+  --textfooter: #f4f4fd;
+  --logofont: "Raleway", sans-serif;
+  --primaryfont: "Roboto", sans-serif;
+}
+body {
+  font-family: var(--primaryfont);
+  font-size: 14px;
+  font-weight: 500;
+  /* line-height: 20px; */
+  letter-spacing: 2%;
+  background-color: var(--whitebackground);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  font-family: var(--logofont);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+}
+.logo span {
+  color: #4d5ae5;
+}
