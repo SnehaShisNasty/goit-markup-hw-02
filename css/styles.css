@@ -65,7 +65,10 @@ address {
   list-style: none;
 }
 .nav_link {
-  color: var(--primaryfont);
+  font-size: 16px;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .nav_link:hover,
 .nav_link:active,
@@ -75,6 +78,9 @@ address {
 .address_link {
   font-weight: 400;
   color: var(--textcolor);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .address_link:hover,
 .address_link:active,
@@ -93,7 +99,7 @@ address {
 }
 .hero-button {
   background-color: #4d5ae5;
-  border: none;
+  /* border: none; */
   /* border-radius: 4px; */
   /* width: 169px;
   height: 56px; */
@@ -127,6 +133,8 @@ address {
 }
 .footer-text {
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer span {
   color: #f4f4fd;
@@ -134,7 +142,7 @@ address {
 .filter-button {
   background: linear-gradient(0deg, #f4f4fd, #f4f4fd),
     linear-gradient(0deg, #e7e9fc, #e7e9fc);
-  border: none;
+  /* border: none; */
   /* border-radius: 4px; */
   /* width: 116px;
   height: 48px; */
