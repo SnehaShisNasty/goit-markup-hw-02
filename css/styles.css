@@ -93,8 +93,9 @@ address {
 .hero-header {
   font-size: 56px;
   font-weight: 700;
-  /* line-height: 60px; */
+  letter-spacing: 0.02em;
   color: #ffffff;
+  line-height: 1.07;
   text-align: center;
 }
 .hero-button {
@@ -103,6 +104,10 @@ address {
   /* border-radius: 4px; */
   /* width: 169px;
   height: 56px; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--whitetext);
 
   text-align: center;
@@ -114,15 +119,26 @@ address {
 }
 .list_header {
   font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   /* line-height: 24px; */
 }
 .list_text {
   font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--textcolor);
 }
 .section-header {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
   text-align: center;
 }
 .third-section {
