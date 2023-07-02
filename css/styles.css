@@ -144,6 +144,9 @@ address {
 .third-section {
   background-color: #f4f4fd;
 }
+.third-section .list_item {
+  background-color: #ffffff;
+}
 .footer {
   background-color: var(--footerbackground);
 }
