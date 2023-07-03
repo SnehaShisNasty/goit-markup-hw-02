@@ -175,6 +175,6 @@ address {
 .filter-button:hover,
 .filter-button:active,
 .filter-button:focus {
-  color: var(--textfooter);
+  color: #ffffff;
   background: #404bbf;
 }
