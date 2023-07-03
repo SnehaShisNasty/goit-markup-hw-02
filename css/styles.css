@@ -159,12 +159,17 @@ address {
   color: #f4f4fd;
 }
 .filter-button {
-  background: linear-gradient(0deg, #f4f4fd, #f4f4fd),
-    linear-gradient(0deg, #e7e9fc, #e7e9fc);
+  background-color: #f4f4fd;
   /* border: none; */
   /* border-radius: 4px; */
   /* width: 116px;
   height: 48px; */
+  font-family: var(--primaryfont);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #4d5ae5;
   letter-spacing: 0.04em;
   text-align: center;
