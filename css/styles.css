@@ -14,23 +14,13 @@ body {
   font-family: var(--primaryfont);
   font-size: 14px;
   font-weight: 500;
-  /* line-height: 20px; */
   letter-spacing: 2%;
   color: #434455;
   background-color: var(--whitebackground);
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  /* margin: 0; */
-}
+
 button {
   cursor: pointer;
-  /* padding: 0; */
 }
 a {
   text-decoration: none;
@@ -39,7 +29,6 @@ ul,
 li {
   list-style-type: none;
   margin: 0;
-  /* padding: 0; */
 }
 address {
   font-style: normal;
@@ -100,10 +89,7 @@ address {
 }
 .hero-button {
   background-color: #4d5ae5;
-  /* border: none; */
-  /* border-radius: 4px; */
-  /* width: 169px;
-  height: 56px; */
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -123,7 +109,6 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  /* line-height: 24px; */
 }
 .list_text {
   font-weight: 400;
@@ -160,10 +145,7 @@ address {
 }
 .filter-button {
   background-color: #f4f4fd;
-  /* border: none; */
-  /* border-radius: 4px; */
-  /* width: 116px;
-  height: 48px; */
+
   font-family: var(--primaryfont);
   font-weight: 500;
   font-size: 16px;
